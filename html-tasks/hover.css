@@ -1,0 +1,26 @@
+
+/* Style for links */
+a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect for links */
+a:hover {
+    color: #f00; /* Red color on hover */
+}
+
+/* Style for buttons */
+button {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #ccc; /* Light gray background on hover */
+}

@@ -1,0 +1,22 @@
+.red-text {
+    color: #FF5733; /* Red */
+}
+
+.green-text {
+    color: #4CAF50; /* Green */
+}
+
+.blue-text {
+    color: #3498DB; /* Blue */
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background for the body */
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}

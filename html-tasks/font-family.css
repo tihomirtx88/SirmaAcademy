@@ -1,0 +1,27 @@
+/* Define different font families */
+.font-arial {
+    font-family: Arial, sans-serif;
+}
+
+.font-times {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.font-verdana {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.font-courier {
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}

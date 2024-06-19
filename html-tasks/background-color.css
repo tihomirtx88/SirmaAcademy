@@ -1,0 +1,33 @@
+.color-box {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 18px;
+    color: white;
+}
+
+/* Background color styles */
+.red-bg {
+    background-color: #FF5733; /* Red */
+}
+
+.green-bg {
+    background-color: #4CAF50; /* Green */
+}
+
+.blue-bg {
+    background-color: #3498DB; /* Blue */
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background for the body */
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+/* styles.css */
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#highlight {
+    background-color: yellow;
+    padding: 10px;
+}
+
+#styled-box {
+    border: 2px solid #ccc;
+    padding: 15px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+#styled-box h2 {
+    margin-top: 0;
+    color: #007BFF;
+}
+
+#styled-box p {
+    margin-bottom: 0;
+}
+
+#styled-link {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px auto;
+    border-radius: 5px;
+}

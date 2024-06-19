@@ -1,0 +1,7 @@
+/* Style for the first line of paragraphs */
+p::first-line {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #f00; /* Red color */
+  text-transform: uppercase;
+}

@@ -1,0 +1,33 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+.styled-div {
+    border: 2px solid #000;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+.styled-div h2 {
+    margin-top: 0;
+}
+.styled-div p {
+    margin-bottom: 0;
+}
+.styled-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}

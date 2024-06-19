@@ -1,0 +1,35 @@
+/* Font styles and weights */
+.normal {
+    font-style: normal;
+    font-weight: normal;
+}
+
+.italic {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.bold {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.bold-italic {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.light {
+    font-weight: lighter;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
