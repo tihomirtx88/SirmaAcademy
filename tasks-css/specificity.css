@@ -1,0 +1,14 @@
+p {
+  color: blue;
+  font-size: 16px;
+}
+
+/* Class selector */
+.highlight {
+  color: red;
+  font-size: 18px;
+}
+#unique {
+  color: red;
+  font-weight: bold;
+}

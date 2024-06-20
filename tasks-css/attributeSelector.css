@@ -1,0 +1,33 @@
+/* Style for text input */
+input[type="text"] {
+    border: 2px solid #4CAF50;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Style for submit input */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Optional: Hover effect for submit button */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Style for specific link with href="https://example.com" */
+a[href="https://example.com"] {
+    color: red;
+    text-decoration: none; /* Optional: Remove underline */
+}
+
+/* Optional: Hover effect for the specific link */
+a[href="https://example.com"]:hover {
+    color: darkred;
+    text-decoration: underline; /* Add underline on hover */
+}

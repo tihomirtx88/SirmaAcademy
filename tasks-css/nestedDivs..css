@@ -1,0 +1,21 @@
+.parent {
+    width: 60%;
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+
+.child{
+    background: green;
+    width: 50%;
+    padding: 20px;
+    width: 100px;
+}
+
+.child {
+    width: 50%;
+    background-color: lightblue;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
