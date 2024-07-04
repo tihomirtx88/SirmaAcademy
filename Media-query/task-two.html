@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Responsive Design</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header,
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+      nav {
+        background-color: #444;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        display: block;
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+      }
+      .section {
+        background-color: #ddd;
+        padding: 20px;
+        border: 1px solid #ccc;
+        text-align: center;
+        flex: 1;
+        box-sizing: border-box;
+      }
+
+      /* For screens wider than 1400px */
+      @media (min-width: 1400px) {
+        nav {
+          display: flex;
+          justify-content: center;
+          gap: 10px;
+        }
+        .container {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          gap: 10px;
+        }
+      }
+
+      /* For screens between 900px and 1400px */
+      @media (min-width: 900px) and (max-width: 1399px) {
+        nav {
+          display: block;
+          width: 200px;
+          position: fixed;
+          height: 100%;
+          top: 0;
+          left: 0;
+        }
+        .container {
+          margin-left: 200px;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 10px;
+        }
+      }
+
+      /* For screens between 600px and 900px */
+      @media (min-width: 600px) and (max-width: 899px) {
+        nav {
+          display: flex;
+          justify-content: center;
+          gap: 10px;
+        }
+        .container {
+          display: flex;
+          flex-direction: column;
+          padding: 32px;
+          gap: 20px;
+        }
+      }
+
+      /* For screens narrower than 600px */
+      @media (max-width: 599px) {
+        nav {
+          display: none;
+        }
+        .container {
+          display: flex;
+          flex-direction: column;
+          padding: 10px;
+        }
+        .section {
+          padding: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Advanced Responsive Design</h1>
+    </header>
+    <nav>
+      <a href="#section1">Section 1</a>
+      <a href="#section2">Section 2</a>
+      <a href="#section3">Section 3</a>
+      <a href="#section4">Section 4</a>
+    </nav>
+    <div class="container">
+      <div id="section1" class="section">Section 1</div>
+      <div id="section2" class="section">Section 2</div>
+      <div id="section3" class="section">Section 3</div>
+      <div id="section4" class="section">Section 4</div>
+    </div>
+    <footer>
+      <p>&copy; 2024 Advanced Responsive Design</p>
+    </footer>
+  </body>
+</html>
