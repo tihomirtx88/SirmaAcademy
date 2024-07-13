@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Window Resize Event</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 30px;
+      }
+      #dimensions {
+        margin-top: 20px;
+        font-size: 1.2em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Resize the Window</h1>
+    <p id="dimensions">
+      Window Width: <span id="width"></span>, Window Height:
+      <span id="height"></span>
+    </p>
+
+    <script>
+      function updateDimensions() {
+        const width = window.innerWidth;
+        const height = window.innerHeight;
+        document.getElementById("width").textContent = width;
+        document.getElementById("height").textContent = height;
+      }
+
+      window.addEventListener("resize", updateDimensions);
+      
+      updateDimensions();
+    </script>
+  </body>
+</html>

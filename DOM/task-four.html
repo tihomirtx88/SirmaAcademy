@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <p>
+      <a
+        id="someId"
+        type="text/html"
+        hreflang="bg-bg"
+        rel="nofollow"
+        target="_blank"
+        href="#"
+        >resources</a
+      >
+    </p>
+    <button onclick="getAttributes()">
+      Click here to get attributes value
+    </button>
+  </body>
+</html>
+
+<script>
+  function getAttributes() {
+    const link = document.getElementById("someId");
+
+    const href = link.getAttribute("href");
+    const hreflang = link.getAttribute("hreflang");
+    const rel = link.getAttribute("rel");
+    const target = link.getAttribute("target");
+    const type = link.getAttribute("type");
+  }
+</script>

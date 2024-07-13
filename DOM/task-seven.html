@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Create Table with JavaScript</title>
+    <style type="text/css">
+      body {
+        margin: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="rows">Rows: </label>
+      <input type="number" id="rows" name="rows" min="1" /><br /><br />
+
+      <label for="columns">Columns: </label>
+      <input type="number" id="columns" name="columns" min="1" /><br /><br />
+
+      <input type="button" onclick="createTable()" value="Create the table" />
+    </form>
+
+    <br />
+
+    <table id="myTable" border="1"></table>
+
+    <script>
+      function createTable() {
+        const rows = document.getElementById("rows").value;
+        const columns = document.getElementById("columns").value;
+        const table = document.getElementById("myTable");
+
+        table.innerHTML = "";
+
+        for (let i = 0; i < rows; i++) {
+          //insert row in table
+          const row = table.insertRow();
+          for (let j = 0; j < columns; j++) {
+            //insert cell in row
+            const cell = row.insertCell();
+            //Set content to sell
+            cell.innerHTML = `Row-${i} Column-${j}`;
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
